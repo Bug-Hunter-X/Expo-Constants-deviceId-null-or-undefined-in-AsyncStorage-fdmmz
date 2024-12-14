@@ -1,0 +1,1 @@
+This error occurs when using Expo's `Constants.deviceId` within an AsyncStorage function. The `deviceId` might be null or undefined at the moment AsyncStorage tries to access it, leading to unexpected behavior or crashes.  This is especially true if the `deviceId` is not readily available when the app starts.
